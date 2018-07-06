@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled/*, { css }*/ from "styled-components";
 
 export const Positioner = styled.div`
     left: 50%;
@@ -19,3 +19,10 @@ export const Positioner = styled.div`
 `;
 
 export default Positioner;
+
+ /*
+    ${props => (props.index>6) && css`
+        left: 75%;
+        top: 75%;
+        width: 36vw;
+    `}*/
