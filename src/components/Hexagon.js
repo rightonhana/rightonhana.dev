@@ -5,6 +5,9 @@ export const Hexagon = styled.div`
   background-repeat: no-repeat;
   background-position: 50%;
   opacity: .25;
+  top: 50%;
+  left:50%;
+  transform: translate(0%, -50%);
   height: 10vw;
   width: 10vw;
   display: inline-block;

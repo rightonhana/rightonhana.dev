@@ -5,7 +5,7 @@ import { Positioner } from "./Positioner";
 export const IconLink = ({ href, title, src, angle}) => (
     <Positioner style={{transform:`rotate(${angle}deg)`}}>
         <a href={href} title={title} style={{transform:`rotate(${-angle}deg)`}}>
-            <Icon src={src} alt={title} />
+            <Icon src={src} alt={title}/>
         </a>
     </Positioner>
 );
