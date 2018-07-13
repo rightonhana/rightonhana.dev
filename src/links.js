@@ -2,111 +2,93 @@ export const links = [
     {
         href : "http://fb.me/rightonhana",
         src : "facebook.svg",
-        title : "Facebook",
-        angleSize: 6
+        title : "Facebook"
     },
     {
         href : "http://twitter.com/rightonhana",
         src : "twitter.svg",
-        title : "Twitter",
-        angleSize: 6
+        title : "Twitter"
     },
     {
         href : "http://github.com/rightonhana",
         src : "github.svg",
-        title : "GitHub",
-        angleSize: 6  
+        title : "GitHub"
     },
     {
         href : "https://www.linkedin.com/in/rightonhana/",
         src : "linkedin.svg",
-        title : "LinkedIn",
-        angleSize: 6  
+        title : "LinkedIn"
     },
     {
         href : "https://www.youtube.com/channel/UCN0IR9fhWQrp9gpBLwe4G0w?view_as=subscriber",
         src : "youtube.svg",
-        title : "YouTube",
-        angleSize: 6
+        title : "YouTube"
     },
     {
         href : "https://www.twitch.tv/rightonhana",
         src : "twitch.svg",
-        title : "Twitch",
-        angleSize: 6
-    }/*,
+        title : "Twitch"
+    },
     {
         href : "https://www.snapchat.com/add/rightonhana",
-        src : "base",
-        title : "Snapchat",
-        angleSize: 12  
+        src : "snapchat.svg",
+        title : "Snapchat"
     },
     {
         href : "https://bitbucket.org/rightonhana/",
-        src : "base",
-        title : "BitBucket",
-        angleSize: 12  
+        src : "bitbucket.svg",
+        title : "BitBucket"
     },
     {
         href : "https://www.instagram.com/rightonhana/",
-        src : "base",
-        title : "Instagram",
-        angleSize: 12  
+        src : "instagram.svg",
+        title : "Instagram"
     },
     {
         href : "https://playoverwatch.com/es-es/career/pc/hana-11360",
-        src : "base",
-        title : "Overwatch",
-        angleSize: 12  
+        src : "overwatch.svg",
+        title : "Overwatch"
     },
     {
         href : "https://t.me/rightonhana",
-        src : "base",
-        name : "Telegram",
-        angleSize: 12  
+        src : "telegram.svg",
+        title : "Telegram"
     },
     {
         href : "",
         src : "discord.svg",
-        name : "Discord",
-        angleSize: 12  
+        title : "Discord"
     },
     {
         href : "",
         src : "kakaotalk.svg",
-        name : "KakaoTalk",
-        angleSize: 12  
+        title : "KakaoTalk"
     },
     {
         href : "",
         src : "skype.svg",
-        name : "Skype",
-        angleSize: 12  
+        title : "Skype"
     },
     {
         href : "",
         src : "line.svg",
-        name : "Line",
-        angleSize: 12  
+        title : "Line"
     },
     {
         href : "",
         src : "stackoverflow.svg",
-        name : "StackOverflow",
-        angleSize: 12  
+        title : "StackOverflow"
     },
     {
         href : "",
         src : "soundcloud.svg",
-        name : "SoundCloud",
-        angleSize: 12  
+        title : "SoundCloud"
     },
     {
         href : "",
         src : "gmail.svg",
-        name : "Gmail",
-        angleSize: 12   
-    }*/
+        title : "Gmail"
+    }
 ];
 
 export default links;

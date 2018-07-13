@@ -1,4 +1,4 @@
-import styled, { css } from "styled-components";
+import styled from "styled-components";
 
 export const Positioner = styled.div`
     left: 50%;
@@ -10,11 +10,11 @@ export const Positioner = styled.div`
     top: 50%;
     transform-origin: 0 50%;
     transform: translate(0, -50%);
-    width: 18vmax;
     
     a {
         display: inline-block;
         border-radius: 50%;
+        overflow: hidden;
         &:focus {
             outline: 0;
         }
@@ -22,10 +22,3 @@ export const Positioner = styled.div`
 `;
 
 export default Positioner;
-
- /*
-    ${props => props && css`
-        left: 75%;
-        top: 75%;
-        width: 36vw;
-    `}*/
