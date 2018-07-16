@@ -61,8 +61,8 @@ export const links = [
     },
     {
         href : "",
-        src : "kakaotalk.svg",
-        title : "KakaoTalk"
+        src : "gitlab.svg",
+        title : "Gitlab"
     },
     {
         href : "",
