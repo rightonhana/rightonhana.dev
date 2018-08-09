@@ -55,37 +55,37 @@ export const links = [
         title : "Telegram"
     },
     {
-        href : "",
+        href : "https://discordapp.com/users/133673024640647168",
         src : "discord.svg",
         title : "Discord"
     },
     {
-        href : "",
+        href : "https://gitlab.com/rightonhana",
         src : "gitlab.svg",
         title : "Gitlab"
     },
     {
-        href : "",
+        href : "skype:live:rightonhana",
         src : "skype.svg",
         title : "Skype"
     },
     {
-        href : "",
+        href : "https://line.me/R/rightonhana",
         src : "line.svg",
         title : "Line"
     },
     {
-        href : "",
+        href : "https://stackoverflow.com/users/6272220/mar%C3%ADa-florencia-gonz%C3%A1lez?tab=profile",
         src : "stackoverflow.svg",
         title : "StackOverflow"
     },
     {
-        href : "",
+        href : "https://soundcloud.com/rightonhana",
         src : "soundcloud.svg",
         title : "SoundCloud"
     },
     {
-        href : "",
+        href : "mailto:rightonhana@gmail.com",
         src : "gmail.svg",
         title : "Gmail"
     }
