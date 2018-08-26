@@ -12,11 +12,16 @@ export const Positioner = styled.div`
     transform: translate(0, -50%);
     
     a {
+        opacity: .25;
         display: inline-block;
         border-radius: 50%;
         overflow: hidden;
-        &:focus {
+        will-change: opacity;
+        transition: opacity .2s ease-in-out;
+
+        &:hover, &:focus {
             outline: 0;
+            opacity: .75;
         }
     }
 `;
