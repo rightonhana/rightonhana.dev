@@ -10,20 +10,6 @@ export const Positioner = styled.div`
     top: 50%;
     transform-origin: 0 50%;
     transform: translate(0, -50%);
-    
-    a {
-        opacity: .25;
-        display: inline-block;
-        border-radius: 50%;
-        overflow: hidden;
-        will-change: opacity;
-        transition: opacity .2s ease-in-out;
-
-        &:hover, &:focus {
-            outline: 0;
-            opacity: .75;
-        }
-    }
 `;
 
 export default Positioner;
