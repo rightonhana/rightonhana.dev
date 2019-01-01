@@ -5,6 +5,7 @@ export const Positioner = styled.div`
     list-style: none;
     margin: 0;
     padding: 0;
+    pointer-events: none;
     position: absolute;
     text-align: right;
     top: 50%;

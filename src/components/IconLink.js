@@ -4,10 +4,11 @@ import { Positioner } from "./Positioner";
 import styled, { css } from "styled-components";
 
 const ReactiveLink = styled.a`
-    opacity: .5;
-    display: inline-block;
     border-radius: 50%;
+    display: inline-block;
+    opacity: .5;
     overflow: hidden;
+    pointer-events: all;
     ${props => css`
         transform: rotate(${props.angle}deg) scale(1);
     `}
