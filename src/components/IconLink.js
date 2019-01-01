@@ -23,7 +23,7 @@ const ReactiveLink = styled.a`
     }
 `;
 
-export const IconLink = ({ distance, href, title, src, angle}) => (
+export const IconLink = ({ distance, href, title, src, angle }) => (
     <Positioner style={{
         transform: `translate(0, -50%) rotate(${angle}deg)`,
         width: `${distance}vmin`
