@@ -4,10 +4,10 @@
   "private": true,
   "homepage": "https://rightonhana.me",
   "dependencies": {
-    "ajv": "^6.0.0",
-    "react": "^16.4.2",
-    "react-dom": "^16.4.2",
-    "react-scripts": "^2.1.2",
+    "ajv": "^6.10.0",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-scripts": "^3.0.1",
     "styled-components": "^4.1.3"
   },
   "scripts": {
