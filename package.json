@@ -1,7 +1,7 @@
 {
   "name": "website-react",
   "description": "Florencia Gonzalez Website",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "browserslist": [
     ">0.2%",
     "not dead",
@@ -9,11 +9,12 @@
     "not op_mini all"
   ],
   "dependencies": {
+    "@types/jest": "^24.0.23",
     "ajv": "^6.10.2",
+    "emotion": "^10.0.23",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
-    "react-scripts": "^3.2.0",
-    "styled-components": "^4.4.1"
+    "react-scripts": "^3.2.0"
   },
   "homepage": "https://rightonhana.me",
   "private": true,
@@ -22,5 +23,10 @@
     "eject": "react-scripts eject",
     "start": "react-scripts start",
     "test": "react-scripts test --env=jsdom"
+  },
+  "devDependencies": {
+    "@types/react": "^16.9.13",
+    "@types/react-dom": "^16.9.4",
+    "typescript": "^3.7.2"
   }
 }
