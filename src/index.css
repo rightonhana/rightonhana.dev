@@ -1,6 +1,7 @@
 body {
-  margin: 0;
-  padding: 0;
+  background-color: #17202a;
   font-family: sans-serif;
-  background-color: #17202A;
+  margin: 0;
+  overflow: hidden;
+  padding: 0;
 }
