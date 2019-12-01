@@ -6,9 +6,9 @@ import IconLinksProps from "./IconLinksProps";
 /**
  * IconLinks component.
  */
-export const IconLinks: FC<IconLinksProps> = ({ links }) => (
+export const IconLinks: FC<IconLinksProps> = ({ links = []}) => (
   <>
-    {(links || [])
+    {links
       .map((link, index) => ({
         ...link,
         key: index,

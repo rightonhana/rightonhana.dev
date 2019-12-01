@@ -6,11 +6,11 @@ import ReactiveLink from "../ReactiveLink";
 import IconLinkProps from "./IconLinkProps";
 
 export const IconLink: FC<IconLinkProps> = ({
+  angle = 0,
   className,
   distance = 0,
   href,
   src,
-  angle = 0,
   title = "Link",
   ...props
 }) => (

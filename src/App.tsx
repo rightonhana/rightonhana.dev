@@ -1,18 +1,13 @@
-import React, { Component } from "react";
-import "./App.css";
+import React from "react";
 import IconLinks from "./components/IconLinks";
 import Logo from "./components/Logo";
-import { links } from "./links";
+import links from "./links";
 
-class App extends Component {
-  render() {
-    return (
-      <div className="App">
-        <Logo src="/roh.svg" alt="Florencia Gonzalez" size={18} />
-        <IconLinks links={links} />
-      </div>
-    );
-  }
-}
+export const App = () => (
+    <>
+      <Logo src="/roh.svg" alt="Florencia Gonzalez" size={18} />
+      <IconLinks links={links} />
+    </>
+  );
 
 export default App;

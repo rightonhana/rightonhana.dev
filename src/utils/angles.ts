@@ -16,3 +16,19 @@ export const setDistance = (value: number) =>
       ? BASE_ANGLE + 15.5 + SEPARATION_ANGLE * 2
       : BASE_ANGLE + 11.5 + SEPARATION_ANGLE * 2
     : BASE_ANGLE + SEPARATION_ANGLE;
+
+/**
+ * Rotate an element
+ * @param target HTML element target to set style
+ * @param x Number to rotate on axis X
+ * @param y Number to rotate on axis Y
+ */
+export const rotate = (target: HTMLElement, x: number, y: number) => {
+  target.setAttribute(
+    "style",
+    `
+    --rotateX: ${x};
+    --rotateY: ${y};
+  `
+  );
+};

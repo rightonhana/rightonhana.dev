@@ -3,8 +3,9 @@ import React, { FC } from "react";
 import ReactiveLinkProps from "./ReactiveLinkProps";
 
 export const ReactiveLink: FC<ReactiveLinkProps> = ({
+  angle = 0,
+  children,
   className,
-  angle,
   ...props
 }) => (
   <a
@@ -29,7 +30,9 @@ export const ReactiveLink: FC<ReactiveLinkProps> = ({
       className
     )}
     {...props}
-  />
+  >
+    {children}
+  </a>
 );
 
 export default ReactiveLink;

@@ -1,5 +1,36 @@
+/* Apply a default color scheme */
+@media (prefers-color-scheme: no-preference) {
+  :root {
+    --background: #546e7a;
+    --hexagon: rgb(255, 255, 255);
+    --icon: rgb(114, 137, 218);
+    --logo: rgb(144, 167, 248);
+  }
+}
+
+/* Apply a light color scheme */
+@media (prefers-color-scheme: light) {
+  :root {
+    --background: #f5f5f5;
+    --hexagon: rgb(255, 255, 255);
+    --icon: rgb(114, 137, 218);
+    --logo: rgb(144, 167, 248);
+    --illustration: rgb(44, 47, 51)
+  }
+}
+
+/* Apply a dark color scheme */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #23272a;
+    --hexagon: #566573;
+    --icon: rgb(114, 137, 218);
+    --logo: rgb(144, 167, 248);
+  }
+}
+
 body {
-  background-color: #17202a;
+  background-color: var(--background);
   font-family: sans-serif;
   margin: 0;
   overflow: hidden;
