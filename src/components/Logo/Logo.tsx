@@ -1,14 +1,15 @@
 import { css, cx } from "emotion";
 import React, { FC } from "react";
+import { ReactComponent as RohLogo } from "../../images/roh.svg";
 import LogoProps from "./LogoProps";
 
 export const Logo: FC<LogoProps> = ({
   className,
   size = 10,
-  alt = "Logo",
+  color = "#fff",
   ...props
 }) => (
-  <img
+  <RohLogo
     className={cx(
       css`
         height: ${size}vmin;
@@ -20,10 +21,14 @@ export const Logo: FC<LogoProps> = ({
         transform: translate(-50%, -50%);
         user-select: none;
         width: ${size}vmin;
+
+        path {
+          fill: ${color};
+        }
       `,
       className
     )}
-    {...{ alt, ...props }}
+    {...props }
   />
 );
 

@@ -1,3 +1,3 @@
 # Florencia Gonzalez Website
 
- This is my personal website. It was made using React, Styled Components and it's a Progressive Web App.
+ This is my personal website. It was made using React, TypeScript, Emotion and it's a Progressive Web App.

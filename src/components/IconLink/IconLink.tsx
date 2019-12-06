@@ -7,6 +7,7 @@ import IconLinkProps from "./IconLinkProps";
 
 export const IconLink: FC<IconLinkProps> = ({
   angle = 0,
+  children,
   className,
   distance = 0,
   href,
@@ -24,7 +25,9 @@ export const IconLink: FC<IconLinkProps> = ({
     )}
   >
     <ReactiveLink href={href} title={title} angle={-angle}>
-      <HexagonIcon src={src} title={title} size={18} />
+      <HexagonIcon size={18}>
+        {children}
+      </HexagonIcon>
     </ReactiveLink>
   </Positioner>
 );
