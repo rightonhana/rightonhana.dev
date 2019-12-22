@@ -1,7 +1,33 @@
+:root {
+  --background: #0F0E17;
+  --foreground: #DDD;
+  --hexagon: var(--foreground);
+  --icon: var(--background);
+  --logo: var(--foreground);
+}
+
 body {
-  background-color: #17202a;
+  background-color: var(--background);
   font-family: sans-serif;
   margin: 0;
   overflow: hidden;
   padding: 0;
+}
+
+/* Apply a light color scheme */
+@media (prefers-color-scheme: light) {
+  :root {
+    --hexagon: var(--background);
+    --icon: var(--foreground);
+    --logo: var(--background);
+  }
+}
+
+/* Apply a dark color scheme */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --hexagon: var(--foreground);
+    --icon: var(--background);
+    --logo: var(--foreground);
+  }
 }
