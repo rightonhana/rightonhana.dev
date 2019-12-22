@@ -3,7 +3,7 @@
   "directoryListing": false,
   "headers": [
     {
-      "source": "index.html",
+      "source": "**/*",
       "headers": [
         {
           "key": "Cache-Control",
@@ -11,7 +11,7 @@
         },
         {
           "key": "content-security-policy",
-          "value": "connect-src 'self'; default-src 'self'; font-src 'none'; frame-src 'none'; img-src 'self'; manifest-src 'self'; media-src 'self'; object-src 'none'; script-src 'self' cdn.pika.dev storage.googleapis.com; style-src 'self' 'unsafe-inline'; worker-src 'self'"
+          "value": "connect-src 'self'; default-src 'self'; font-src 'none'; frame-src 'none'; img-src 'self'; manifest-src 'self'; media-src 'self'; object-src 'none'; script-src 'self' 'sha256-SI+HJIEpk+u/icSwwXqUtCKQKqWDwOXu0B3qCmbGMsI=' storage.googleapis.com; style-src 'self' 'unsafe-inline'; worker-src 'self'"
         },
         {
           "key": "pragma",
@@ -40,6 +40,5 @@
       ]
     }
   ],
-  "public": "./build",
-  "rewrites": [{ "source": "/**", "destination": "/index.html" }]
+  "public": "./build"
 }

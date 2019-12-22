@@ -43,7 +43,6 @@ export const IconLinks: FC<IconLinksProps> = ({ links = [], ...props }) => (
               }
             `}
             href={link.href}
-            tabIndex={link.tab}
             title={link.title}
           >
             <link.Icon
