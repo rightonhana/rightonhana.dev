@@ -5,8 +5,8 @@ import LogoProps from "./LogoProps";
 
 export const Logo: FC<LogoProps> = ({
   className,
-  size = 10,
   color = "#fff",
+  size = 10,
   ...props
 }) => (
   <RohLogo
@@ -14,7 +14,6 @@ export const Logo: FC<LogoProps> = ({
       css`
         height: ${size}vmin;
         left: 50%;
-        opacity: 0.75;
         pointer-events: none;
         position: absolute;
         top: 50%;

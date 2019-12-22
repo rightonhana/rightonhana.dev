@@ -7,7 +7,7 @@ import IconLinksProps from "./IconLinksProps";
 /**
  * IconLinks component.
  */
-export const IconLinks: FC<IconLinksProps> = ({ links = [], ...props}) => (
+export const IconLinks: FC<IconLinksProps> = ({ links = [], ...props }) => (
   <div {...props}>
     {links
       .map((link, index) => ({
@@ -18,15 +18,26 @@ export const IconLinks: FC<IconLinksProps> = ({ links = [], ...props}) => (
       }))
       .sort((linkA, linkB) => (linkA.tab > linkB.tab ? 1 : -1))
       .map(link => (
-        <IconLink {...link} >
-          <link.Icon className={css`
-            height: 100%;
-            width: 100%;
-            
+        <IconLink
+          {...link}
+          className={css`
+            svg {
+              height: 100%;
+              width: 100%;
+            }
+            &:hover,
+            &:focus {
+              path {
+                fill: ${link.color};
+              }
+            }
+
             path {
               fill: var(--icon);
             }
-          `}/>
+          `}
+        >
+          <link.Icon />
         </IconLink>
       ))}
   </div>

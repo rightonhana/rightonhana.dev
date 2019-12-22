@@ -1,8 +1,8 @@
 :root {
-  --background: #23272a;
-  --hexagon: #566573;
-  --icon: #000;
-  --logo: #fff;
+  --background: #0C0C0C;
+  --hexagon: #fff;
+  --icon: var(--background);
+  --logo: var(--hexagon);
 }
 
 body {
@@ -16,29 +16,29 @@ body {
 /* Apply a default color scheme */
 @media (prefers-color-scheme: no-preference) {
   :root {
-    --background: #23272a;
-    --hexagon: #566573;
-    --icon: #000;
-    --logo: #fff;
+    --background: #0C0C0C;
+    --hexagon: #fff;
+    --icon: var(--background);
+    --logo: var(--hexagon);
   }
 }
 
 /* Apply a light color scheme */
 @media (prefers-color-scheme: light) {
   :root {
-    --background: #f5f5f5;
-    --hexagon: #666;
-    --icon: #fff;
-    --logo: #23272a;
+    --background: #fff;
+    --hexagon: #0C0C0C;
+    --icon: var(--background);
+    --logo: var(--hexagon);
   }
 }
 
 /* Apply a dark color scheme */
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #23272a;
-    --hexagon: #566573;
-    --icon: #000;
-    --logo: #fff;
+    --background: #0C0C0C;
+    --hexagon: #fff;
+    --icon: var(--background);
+    --logo: var(--hexagon);
   }
 }

@@ -11,7 +11,6 @@ export const IconLink: FC<IconLinkProps> = ({
   className,
   distance = 0,
   href,
-  src,
   title = "Link",
   ...props
 }) => (

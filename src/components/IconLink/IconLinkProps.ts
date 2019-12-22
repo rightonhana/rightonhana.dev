@@ -1,10 +1,14 @@
-import { HTMLAttributes } from "react";
+import { HTMLAttributes, ReactNode } from "react";
 
 export interface IconLinkProps extends HTMLAttributes<HTMLDivElement> {
-    distance?: number;
-    href?: string;
-    src?: string;
+    /** Angle of render */
     angle?: number;
+    /** Children */
+    children?: ReactNode;
+    /** Distance of render */
+    distance?: number;
+    /** Anchor href */
+    href?: string;
 }
 
 export default IconLinkProps;
