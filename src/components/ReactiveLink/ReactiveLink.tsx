@@ -27,6 +27,7 @@ export const ReactiveLink: FC<ReactiveLinkProps> = ({
       `,
       className
     )}
+    rel="noopener noreferrer"
     {...props}
   >
     {children}
