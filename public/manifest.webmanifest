@@ -1,20 +1,21 @@
 {
-  "short_name" : "rightonhana",
-  "name" : "Maria Florencia Gonzalez - @rightonhana",
-  "icons" : [
-		{
-			"src": "https://rightonhana.me/logo/192.png",
-			"sizes": "192x192"
-		},
-		{
-			"src": "https://rightonhana.me/logo/512.png",
-			"sizes": "512x512"
-		}],
-  "start_url" : "/",
-  "display" : "standalone",
-  "theme_color" : "#0F0E17",
-  "background_color" : "#0F0E17",
-  "lang" : "English",
-  "orientation" : "any",
-  "description" : "@rightonhana's profiles"
+  "short_name": "rightonhana",
+  "name": "Maria Florencia Gonzalez - @rightonhana",
+  "icons": [
+    {
+      "src": "https://rightonhana.me/logo/192.png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "https://rightonhana.me/logo/512.png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": "/",
+  "display": "standalone",
+  "theme_color": "#0F0E17",
+  "background_color": "#0F0E17",
+  "lang": "English",
+  "orientation": "any",
+  "description": "@rightonhana's profiles"
 }
