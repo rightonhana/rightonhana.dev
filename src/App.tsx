@@ -1,13 +1,6 @@
 import React from "react";
-import IconLinks from "./components/IconLinks";
-import Logo from "./components/Logo";
-import links from "./links";
+import Home from "./components/Home";
 
-export const App = () => (
-  <>
-    <Logo color="var(--logo)" size={18} />
-    <IconLinks links={links} />
-  </>
-);
+export const App = () => (<Home/>);
 
 export default App;
