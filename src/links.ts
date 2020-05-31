@@ -36,24 +36,24 @@ export const links = [
         tab: 15
     },
     {
+        color: "#7289DA",
+        href: "https://discordapp.com/users/133673024640647168",
+        Icon: DiscordIcon,
+        title: "Discord",
+        tab: 18
+    },
+    {
         color: "#6441A4",
         href: "https://www.twitch.tv/rightonhana",
         Icon: TwitchIcon,
         title: "Twitch",
-        tab: 18
+        tab: 17
     },
     {
         color: "#F99E1A",
         href: "https://playoverwatch.com/es-es/career/pc/rightonhana-1472",
         Icon: OverwatchIcon,
         title: "Overwatch",
-        tab: 17
-    },
-    {
-        color: "#7289DA",
-        href: "https://discordapp.com/users/133673024640647168",
-        Icon: DiscordIcon,
-        title: "Discord",
         tab: 16
     },
     {
