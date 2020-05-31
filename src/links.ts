@@ -44,7 +44,7 @@ export const links = [
     },
     {
         color: "#F99E1A",
-        href: "https://playoverwatch.com/es-es/career/pc/hana-11360",
+        href: "https://playoverwatch.com/es-es/career/pc/rightonhana-1472",
         Icon: OverwatchIcon,
         title: "Overwatch",
         tab: 17
