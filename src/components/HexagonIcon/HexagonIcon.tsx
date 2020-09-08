@@ -3,13 +3,10 @@ import Hexagon from "../Hexagon";
 import HexagonIconProps from "./HexagonIconProps";
 
 export const HexagonIcon: FC<HexagonIconProps> = ({
-  children,
   color = "#000",
   ...props
 }) => (
-  <Hexagon {...props}>
-    {children}
-  </Hexagon>
+  <Hexagon {...props}/>
 );
 
 export default HexagonIcon;
