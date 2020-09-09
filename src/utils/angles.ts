@@ -1,4 +1,5 @@
-import { BASE_ANGLE, SEPARATION_ANGLE } from "../constants";
+import BASE_ANGLE from "../constants/baseAngle";
+import SEPARATION_ANGLE from "../constants/separationAngle";
 
 /**
  * Set the angle depending on a number
