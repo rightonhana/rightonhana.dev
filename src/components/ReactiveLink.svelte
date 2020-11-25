@@ -6,7 +6,7 @@
 </script>
 
 <a rel="noopener noreferrer"
-    style="--angle:{angle}deg;"
+    style="--angle:{angle}deg; --color: {color};"
     href="{href}"
     title="{title}"
 >
@@ -16,6 +16,7 @@
 <style>
 	a {
         border-radius: 50%;
+        color: var(--icon);
         display: inline-block;
         overflow: hidden;
         pointer-events: all;
@@ -30,18 +31,8 @@
         transform: rotate(var(--angle)) scale(1.1);
     }
 
-    a path {
-        fill: var(--icon);
-        transition: fill 0.2s ease-in-out;
-    }
-
-    a:hover path,
-    a:focus path {
-        fill: var(--color);
-    }
-
-    svg {
-        height: 100%;
-        width: 100%;
+    a:hover,
+    a:focus {
+        color: var(--color);
     }
 </style>

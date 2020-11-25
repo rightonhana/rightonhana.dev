@@ -1,7 +1,7 @@
 export type Link = {
     color: string,
     href: string,
-    svg: string,
+    path: string,
     tab: number,
     title: string
 };

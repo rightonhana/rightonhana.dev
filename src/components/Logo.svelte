@@ -3,7 +3,7 @@
     export let color = "#fff";
 </script>
 
-<svg xmlns="http://www.w3.org/2000/svg" style="isolation:isolate; --color:{color}; --size:{size}vmin" viewBox="0 0 120 120">
+<svg style="--size: {size}vmin; --color: {color}; isolation:isolate;" viewBox="0 0 120 120">
     <defs>
         <clipPath id="a"><path d="M0 0h120v120H0z"/></clipPath>
     </defs>

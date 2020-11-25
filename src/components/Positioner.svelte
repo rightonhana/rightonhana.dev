@@ -3,7 +3,7 @@
     export let distance = 0;
 </script>
 
-<div style="--angle={angle}deg;  --distance:{distance}vmin;">
+<div style="--angle: {angle}deg; --distance: {distance}vmin;">
     <slot/>
 </div>
 
@@ -19,7 +19,6 @@
         top: 50%;
         transform-origin: 0 50%;
         transform: translate(0, -50%) rotate(var(--angle));
-        transform: translate(0, -50%);
         user-select: none;
         width: var(--distance);
 	}
