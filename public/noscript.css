@@ -1,0 +1,17 @@
+body {
+    align-items: center;
+    background-color: #0F0E17;
+    color: #DDD;
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+    text-align: center;
+}
+
+/* Apply a light color scheme */
+@media (prefers-color-scheme: light) {
+    body {
+        background-color: #DDD;
+        color: #0F0E17;
+    }
+}
