@@ -18,10 +18,10 @@
     .sort((linkA, linkB) => (linkA.tab > linkB.tab ? 1 : -1));
 </script>
 
-<div>
+<nav>
   {#each linksToRender as { angle, color, distance, href, path, title }}
     <Positioner {angle} {distance}>
       <IconLink {angle} {color} {href} {path} {title} size={18} />
     </Positioner>
   {/each}
-</div>
+</nav>
