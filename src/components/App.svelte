@@ -4,6 +4,7 @@
 </script>
 
 <main>
+	<header>Florencia Gonzalez personal website</header>
 	<Home/>
 </main>
 
@@ -33,6 +34,10 @@
 		margin: 0;
 		overflow: hidden;
 		padding: 0;
+	}
+
+	header {
+		display: none;
 	}
 
 </style>
