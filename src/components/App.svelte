@@ -3,7 +3,9 @@
 
 </script>
 
-<Home/>
+<main>
+	<Home/>
+</main>
 
 <style>
 	:global(:root) {
