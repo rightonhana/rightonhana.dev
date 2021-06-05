@@ -47,6 +47,7 @@ export default {
 			css: css => {
 				css.write('bundle.css');
 			},
+			emitCss: false,
 			preprocess: sveltePreprocess(),
 		}),
 		generateSW(
