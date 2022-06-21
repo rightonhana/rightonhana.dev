@@ -6,6 +6,7 @@
 
 	export let angle: number;
 	export let color: string;
+	export let animationDelay: number;
 	export let href: string;
 	export let size: number;
 	export let title: string;
@@ -17,7 +18,7 @@
 	};
 </script>
 
-<ReactiveLink {...linkProps} --angle={`-${angle}deg`} --color={color}>
+<ReactiveLink {...linkProps} --angle={`-${angle}deg`} --animation-delay={`${animationDelay}s`} --color={color}>
 	<Hexagon --size={`${size}vmin`}>
 		<MediaIcon path={path}/>
 	</Hexagon>

@@ -1,7 +1,7 @@
 <script lang="ts">
 	import type Link from "../types/Link";
 	import type LinkToRender from "../types/LinkToRender";
-	import { setAngle,setDistance } from "../utils/angles";
+	import { setAngle,setAnimationDelay,setDistance } from "../utils/angles";
 	import IconLink from "./IconLink.svelte";
 	import Positioner from "./Positioner.svelte";
 
@@ -11,15 +11,16 @@
 		.map((link, index) => ({
 			...link,
 			angle: setAngle(index),
+			animationDelay: setAnimationDelay(index),
 			distance: setDistance(index),
 		}))
 		.sort((linkA, linkB) => (linkA.tab > linkB.tab ? 1 : -1));
 </script>
 
 <nav>
-	{#each linksToRender as { angle, color, distance, href, path, title }}
+	{#each linksToRender as { angle, animationDelay, color, distance, href, path, title }}
 		<Positioner --angle={`${angle}deg`} --distance={`${distance}vmin`}>
-			<IconLink {angle} {color} {href} {path} {title} size={18} />
+			<IconLink {angle} {animationDelay} {color} {href} {path} {title} size={18} />
 		</Positioner>
 	{/each}
 </nav>
