@@ -19,6 +19,12 @@ export const setDistance = (value: number) =>
     : BASE_ANGLE + SEPARATION_ANGLE;
 
 /**
+ * Set an animation delay depending on a number
+ * @param value Number to calculate delay
+ */
+export const setAnimationDelay = (value: number) => value < 12 ? 0.6 : 0.4;
+
+/**
  * Rotate an element
  * @param target HTML element target to set style
  * @param x Number to rotate on axis X
