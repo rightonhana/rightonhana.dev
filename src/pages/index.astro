@@ -1,17 +1,19 @@
-<!DOCTYPE html>
+---
+import App from "../components/App.svelte";
+---
+
 <html lang="en">
 	<head>
 		<meta charset='utf-8'>
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 		<meta name="theme-color" content="#0F0E17">
-		<meta name="description" content="Maria Florencia Gonzalez is a Web UI Developer from Argentina.">
+		<meta name="description" content="Florencia Gonzalez is a Web UI Developer from Argentina.">
 		<base target="_blank">
-		<title>Maria Florencia Gonzalez - @rightonhana</title>
+		<title>Florencia Gonzalez - @rightonhana</title>
 
 
 		<link rel="icon" href="/favicon.ico">
 		<link rel="shortcut icon" href="/favicon.ico">
-		<link rel="manifest" href="/manifest.webmanifest">
 		
 		<!-- Add to home screen for Chrome on Android. Fallback for manifest.webmanifest -->
 		<meta name="mobile-web-app-capable" content="yes">
@@ -40,7 +42,7 @@
 		<meta name="twitter:site:id" content="106803263">
 	
 		<!-- Open Graph (Facebook) stuff -->
-		<meta property="og:description" content="Maria Florencia Gonzalez is a Web UI Developer from Argentina.">
+		<meta property="og:description" content="Florencia Gonzalez is a Web UI Developer from Argentina.">
 		<meta property="og:image:alt" content="rightonhana logo">
 		<meta property="og:image:height" content="630">
 		<meta property="og:image:type" content="image/png">
@@ -51,18 +53,12 @@
 		<meta property="og:type" content="website">
 		<meta property="og:url" content="https://rightonhana.dev/">
 		<link rel="image_src" href="https://rightonhana.dev/thumb.png">
-
-		<script defer src='/build/bundle.js'></script>
 	</head>
 	<body>
 		<noscript>
 			<p>You need to enable JavaScript to run this app...<br>ʕノ•ᴥ•ʔノ ︵ ┻━┻</p>
 			<link rel="stylesheet" href="/noscript.css">
 		</noscript>
-		<script>
-			if ('serviceWorker' in navigator) {
-				window.addEventListener('load', () => navigator.serviceWorker.register('/sw.js'));
-			}
-		</script>
+		<App/>
 	</body>
 </html>

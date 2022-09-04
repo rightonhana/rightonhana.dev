@@ -1,29 +1,19 @@
 {
-  "name": "svelte-app",
-  "version": "1.0.0",
+  "name": "rightonhana.dev",
+  "version": "4.0.0",
+  "private": true,
   "scripts": {
-    "build": "rollup -c",
-    "dev": "rollup -c -w",
-    "start": "sirv public --host $HOST --port $PORT",
-    "validate": "svelte-check"
-  },
-  "devDependencies": {
-    "@rollup/plugin-commonjs": "^22.0.2",
-    "@rollup/plugin-node-resolve": "^13.3.0",
-    "@rollup/plugin-typescript": "^8.3.4",
-    "@tsconfig/svelte": "^3.0.0",
-    "rollup": "^2.77.2",
-    "rollup-plugin-livereload": "^2.0.5",
-    "rollup-plugin-svelte": "^7.1.0",
-    "rollup-plugin-terser": "^7.0.2",
-    "rollup-plugin-workbox": "^6.2.0",
-    "svelte": "^3.49.0",
-    "svelte-check": "^2.8.0",
-    "svelte-preprocess": "^4.10.7",
-    "tslib": "^2.4.0",
-    "typescript": "^4.7.4"
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro"
   },
   "dependencies": {
-    "sirv-cli": "^2.0.2"
+    "astro": "^1.1.5"
+  },
+  "devDependencies": {
+    "@astrojs/svelte": "^1.0.0",
+    "svelte": "^3.46.4"
   }
 }
