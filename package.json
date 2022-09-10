@@ -11,11 +11,11 @@
   },
   "dependencies": {
     "@astrojs/vercel": "^1.0.2",
-    "astro": "^1.1.5",
-    "typescript": "^4.8.2"
+    "astro": "^1.2.1",
+    "typescript": "^4.8.3"
   },
   "devDependencies": {
     "@astrojs/svelte": "^1.0.0",
-    "svelte": "^3.46.4"
+    "svelte": "^3.50.1"
   }
 }
