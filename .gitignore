@@ -21,6 +21,8 @@ pnpm-debug.log*
 # VSCode
 .vscode/
 
-# Vercel
-.vercel/
+# VSCode
+.astro/
+
+# lock files
 pnpm-lock.yaml
