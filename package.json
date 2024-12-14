@@ -2,16 +2,15 @@
   "name": "rightonhana.dev",
   "version": "4.0.0",
   "dependencies": {
-    "@astrojs/vercel": "^7.3.6",
-    "astro": "^4.5.2",
-    "react": "^18.2.0",
-    "typescript": "^5.4.2",
-    "vite": "^5.1.6"
+    "astro": "^5.0.5",
+    "react": "^19.0.0",
+    "typescript": "^5.7.2",
+    "vite": "^6.0.3"
   },
   "devDependencies": {
-    "@astrojs/svelte": "^5.2.0",
+    "@astrojs/svelte": "^7.0.1",
     "astro-capo": "^0.0.1",
-    "svelte": "^4.2.12"
+    "svelte": "^5.13.0"
   },
   "private": true,
   "scripts": {
