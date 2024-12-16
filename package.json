@@ -1,24 +1,25 @@
 {
-  "name": "rightonhana.dev",
-  "version": "4.0.0",
-  "dependencies": {
-    "@deno/astro-adapter": "^0.2.0",
-    "astro": "^5.0.5",
-    "react": "^19.0.0",
-    "typescript": "^5.7.2",
-    "vite": "^6.0.3"
-  },
-  "devDependencies": {
-    "@astrojs/svelte": "^7.0.1",
-    "astro-capo": "^0.0.1",
-    "svelte": "^5.13.0"
-  },
-  "private": true,
-  "scripts": {
-    "astro": "astro",
-    "build": "astro build",
-    "dev": "astro dev",
-    "preview": "astro preview",
-    "start": "astro dev"
-  }
+	"name": "rightonhana.dev",
+	"version": "4.0.0",
+	"dependencies": {
+		"@deno/astro-adapter": "^0.2.0",
+		"astro": "^5.0.5",
+		"react": "^19.0.0",
+		"typescript": "^5.7.2",
+		"vite": "^6.0.3"
+	},
+	"devDependencies": {
+		"@astrojs/svelte": "^7.0.1",
+		"astro-capo": "^0.0.1",
+		"svelte": "^5.13.0"
+	},
+	"private": true,
+	"scripts": {
+		"astro": "astro",
+		"build": "astro build",
+		"dev": "astro dev",
+		"preview": "astro preview",
+		"start": "astro dev",
+		"preview:deno": "deno run --allow-net --allow-read --allow-env ./dist/server/entry.mjs"
+	}
 }
