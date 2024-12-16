@@ -1,5 +1,6 @@
 import svelte from "@astrojs/svelte";
 import { defineConfig } from "astro/config";
+import deno from "@deno/astro-adapter";
 
 // https://astro.build/config
 export default defineConfig({
@@ -17,7 +18,7 @@ export default defineConfig({
 			"Referrer-Policy": "no-referrer",
 			"X-Content-Type-Options": "nosniff",
 			"X-Frame-Options": "DENY",
-			"X-XSS-Protection": "1; mode=block",
-		},
-	},
+			"X-XSS-Protection": "1; mode=block"
+		}
+	}
 });
